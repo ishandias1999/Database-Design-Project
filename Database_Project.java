@@ -1,5 +1,5 @@
 // Author: Ishan Dias
-// Student Number: R00164860
+
 
 import java.sql.*;
 
@@ -216,7 +216,7 @@ public class Database_Project {
 
     public static void main(String[] args) {
         try {
-            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost/dbproject", "root", "IRDD4080");
+            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost/dbproject", "root", "dbpj27410");
             Statement s = myConn.createStatement();
 
             //selectCustomerAllData(s);
